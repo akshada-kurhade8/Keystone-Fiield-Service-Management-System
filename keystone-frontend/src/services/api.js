@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8082/api",
+  baseURL: "https://keystone-fiield-service-management-system.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
